@@ -25,9 +25,9 @@ const Portfolio = () => {
               Portfolio
             </h2>
             <div className="flex justify-center py-3 dark:text-gray-400">
-                <div className="relative">phone</div>
-                <div className="relative">phone</div>
-                <div className="relative">phone</div>
+                <div className="relative">project 1</div>
+                <div className="relative">project 2</div>
+                <div className="relative">project 3</div>
             </div>
           </div>
         </section>

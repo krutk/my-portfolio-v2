@@ -59,7 +59,7 @@ export default function Home() {
                       </Link> */}
                       <a
                         className="block px-3 py-2 hover:bg-gray-200 dark:hover:bg-gray-600"
-                        href="/myResume.pdf"
+                        href="/resume.pdf"
                         download
                       >
                         Resume

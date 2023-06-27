@@ -75,7 +75,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               KUMAR UTKARSH
             </h2>
-            <h4 className="text-2xl py-2 dark:text-white md:text-3xl">
+            <h4 className="text-lg py-2 dark:text-white md:text-3xl">
               <Typewriter
                 options={{
                   strings: ['Full Stack Developer', 'Based in India'],

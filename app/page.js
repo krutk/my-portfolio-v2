@@ -11,6 +11,7 @@ import krutk from "/public/krutk1.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -75,7 +76,13 @@ export default function Home() {
               KUMAR UTKARSH
             </h2>
             <h4 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Full Stack Developer.
+              <Typewriter
+                options={{
+                  strings: ['Full Stack Developer', 'Based in India'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </h4>
 
             <p className="text-sm py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">

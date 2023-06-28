@@ -26,17 +26,17 @@ const Contacts = () => {
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Contacts
             </h2>
-            <div className="mt-8 text-left text-white ">
+            <div className="mt-8 text-left text-gray-800 dark:text-gray-200 ">
               <h3 className="text-xl  md:text-3xl font-bold mb-4 underline">Phone</h3>
-              <p className="text-sm text-gray-200">+ (91) 9166884183</p>
+              <p className="text-sm text-gray-700 dark:text-gray-200">+ (91) 9166884183</p>
             </div>
-            <div className="mt-8 text-left text-white">
+            <div className="mt-8 text-left text-gray-800 dark:text-gray-200">
               <h3 className="text-xl  md:text-3xl font-bold mb-4 underline">Email</h3>
-              <p className="text-sm text-gray-200">utkarshroy28@gmail.com</p>
+              <p className="text-sm text-gray-700 dark:text-gray-200">utkarshroy28@gmail.com</p>
             </div>
-            <div className="mt-8 text-left text-white">
+            <div className="mt-8 text-left text-gray-800 dark:text-gray-200">
               <h3 className="text-xl  md:text-3xl font-bold mb-4 underline">Address</h3>
-              <p className="text-sm text-gray-200">Muzaffarpur, Bihar</p>
+              <p className="text-sm text-gray-700 dark:text-gray-200">Muzaffarpur, Bihar</p>
             </div>
           </div>
         </section>
